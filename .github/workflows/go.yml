@@ -23,7 +23,7 @@ jobs:
 
     - name: Build
       run: go build -ldflags -H=windowsgui .
-      
+
     - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
