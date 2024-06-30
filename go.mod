@@ -1,6 +1,6 @@
 module github.com/MCSManager/Launcher
 
-go 1.22.4
+go 1.19
 
 require fyne.io/fyne/v2 v2.2.4
 
